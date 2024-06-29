@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'SamsungSharpSans-Bold';
+    src: url('Fonts/samsungsharpsans-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ca-1btn-subtitle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ca-1btn-subtitle h1 {
+    font-family: 'SamsungSharpSans-Bold', Arial, sans-serif;
+    white-space: pre-line;
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 75px;
+}
+@font-face {
+    font-family: 'SamsungOne-400';
+    src: url('Fonts/SamsungOne-400.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.ca-1btn-subtitle p {
+    font-family: 'SamsungOne-400', Arial, sans-serif;
+    font-size: 1rem; 
+    line-height: 1.5; 
+    color: #333; 
+    max-width: 80%; 
+    margin: 0 auto;
+}
+
+.ca-1btn-subtitle .download-btn {
+    font-family: 'SamsungOne-400', Arial, sans-serif;
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: #030303;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #030303;
+    margin-top: 20px;
+}
+
+.ca-1btn-subtitle .download-btn .download-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+
+

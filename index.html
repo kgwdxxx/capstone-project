@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone</title>
+    <link rel="icon" href="jpg/icon.jpg" type="image/png">
+    <link rel="shortcut icon" href="jpg/icon.jpg" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+
+</head>
+
+<body>
+
+    <div class="ca-1btn-subtitle">
+        <h1>Smart Shoe Navigation<br>Sensor Sensitivity Controller</h1>
+        <p>Download the Smart Shoe Navigation Sensor Sensitivity Controller app to gain precise control over sensor sensitivity. Whether you're fine-tuning environmental awareness to detect surroundings accurately or enhancing user interaction for seamless navigation, our app offers intuitive controls right at your fingertips. Stay connected and optimize your Smart Shoe experience with ease, ensuring every step is personalized and responsive to your needs.</p>
+        <button class="download-btn" onclick="handleDownload()">
+            <img src="Png/download.png" alt="Download Icon" class="download-icon">
+            Smart Shoe Sensor Sensitivity Controller v1.0 
+        </button>
+    </div>
+
+    <script>
+        function handleDownload() {
+            var downloadLink = document.createElement("a");
+            downloadLink.href = "App/SmartShoeSensorSensitivityController.apk"; // Correct file path
+            downloadLink.download = "Smart Shoe Sensor Sensitivity Controller.apk";
+            document.body.appendChild(downloadLink);
+            downloadLink.click();
+            document.body.removeChild(downloadLink);
+        }
+    </script>
+
+</body>
+</html>
+
